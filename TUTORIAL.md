@@ -7,7 +7,6 @@ The full source code can also be found in the tutorial folder.
 ## Basic structure
 
 ```python
-
 # you can also use from termuxgui import * to leave out the tg. to access methods and classes
 import termuxgui as tg
 
@@ -321,7 +320,7 @@ As you can see, for nested LinearLayouts it is enough to set the height and weig
 
 Currently supported inputs are EditText, Button and Checkbox.  
 Let's use our new LineaLayout knowledge to make a custom input dialog.  
-The make it a practical example, we will make a dialog frontend for the `youtubedr` package to download videos.  
+To make it a practical example, we will make a dialog frontend for the `youtubedr` package to download videos.
 You can install that package if you want to try it out, but the UI works without that.  
 
 ```python
@@ -465,7 +464,9 @@ You can install both using
 
 You might need to do
 
-    export PYSDL2_DLL_PATH=$PREFIX/lib
+```bash
+export PYSDL2_DLL_PATH=$PREFIX/lib
+```
 
 for pysdl2 to find the sdl2 library.
 
